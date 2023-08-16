@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://newzone.top/learn_data/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://newzone.top/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://newzone.top/learn_data/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
     <title>挨踢牛马</title>
-    <link>https://newzone.top/learn_data/</link>
+    <link>https://newzone.top/</link>
     <description>来自互联网的笔记。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 16 Aug 2023 08:11:13 GMT</pubDate>
-    <lastBuildDate>Wed, 16 Aug 2023 08:11:13 GMT</lastBuildDate>
+    <pubDate>Wed, 16 Aug 2023 08:17:23 GMT</pubDate>
+    <lastBuildDate>Wed, 16 Aug 2023 08:17:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
       <title>JVM</title>
-      <link>https://newzone.top/learn_data/Java/JVM.html</link>
-      <guid>https://newzone.top/learn_data/Java/JVM.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">JVM</source>
+      <link>https://newzone.top/Java/JVM.html</link>
+      <guid>https://newzone.top/Java/JVM.html</guid>
+      <source url="https://newzone.top/rss.xml">JVM</source>
       <description>JVM JVM概述 基本介绍 JVM：全称 Java Virtual Machine，即 Java 虚拟机，一种规范，本身是一个虚拟计算机，直接和操作系统进行交互，与硬件不直接交互，而操作系统可以帮我们完成和硬件进行交互的工作 特点： Java 虚拟机基于二进制字节码执行，由一套字节码指令集、一组寄存器、一个栈、一个垃圾回收堆、一个方法区等组成 JVM 屏蔽了与操作系统平台相关的信息，从而能够让 Java 程序只需要生成能够在 JVM 上运行的字节码文件，通过该机制实现的跨平台性</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> JVM</h1>
@@ -4068,9 +4068,9 @@ Short.MAX_VALUE 是 32767，所以 32768 = Short.MAX_VALUE + 1 实际是在编�
     </item>
     <item>
       <title>JavaSE</title>
-      <link>https://newzone.top/learn_data/Java/JavaSE.html</link>
-      <guid>https://newzone.top/learn_data/Java/JavaSE.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">JavaSE</source>
+      <link>https://newzone.top/Java/JavaSE.html</link>
+      <guid>https://newzone.top/Java/JavaSE.html</guid>
+      <source url="https://newzone.top/rss.xml">JavaSE</source>
       <description>JavaSE 基础 数据 变量类型 成员变量 局部变量 静态变量 定义位置 在类中，方法外 方法中或者方法的形参 在类中，方法外 初始化值 有默认初始化值 无，赋值后才能使用 有默认初始化值 调用方法 对象调用 对象调用，类名调用 存储位置 堆中 栈中 方法区（JDK8 以后移到堆中） 生命周期 与对象共存亡 与方法共存亡 与类共存亡 别名 实例变量 类变量，静态成员变量</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> JavaSE</h1>
@@ -8666,9 +8666,9 @@ XML 中仅有字符 &lt; 和 &amp; 是非法的。省略号、引号和大于号
     </item>
     <item>
       <title>算法</title>
-      <link>https://newzone.top/learn_data/Java/%E7%AE%97%E6%B3%95.html</link>
-      <guid>https://newzone.top/learn_data/Java/%E7%AE%97%E6%B3%95.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">算法</source>
+      <link>https://newzone.top/Java/%E7%AE%97%E6%B3%95.html</link>
+      <guid>https://newzone.top/Java/%E7%AE%97%E6%B3%95.html</guid>
+      <source url="https://newzone.top/rss.xml">算法</source>
       <description>算法 递归 概述 算法：解题方案的准确而完整的描述，是一系列解决问题的清晰指令，代表着用系统的方法解决问题的策略机制 递归：程序调用自身的编程技巧 递归： 直接递归：自己的方法调用自己 间接递归：自己的方法调用别的方法，别的方法又调用自己 递归如果控制的不恰当，会形成递归的死循环，从而导致栈内存溢出错误 参考书籍：https://book.douban.com/subject/35263893/</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 算法</h1>
@@ -9190,9 +9190,9 @@ XML 中仅有字符 &lt; 和 &amp; 是非法的。省略号、引号和大于号
     </item>
     <item>
       <title>AJAX</title>
-      <link>https://newzone.top/learn_data/JavaWeb/AJAX.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/AJAX.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">AJAX</source>
+      <link>https://newzone.top/JavaWeb/AJAX.html</link>
+      <guid>https://newzone.top/JavaWeb/AJAX.html</guid>
+      <source url="https://newzone.top/rss.xml">AJAX</source>
       <description>AJAX 概述 AJAX(Asynchronous JavaScript And XML)：异步的 JavaScript 和 XML。 不是一种新技术，而是多个技术综合，用于快速创建动态网页的技术。 一般的网页如果需要更新内容，必需重新加载个页面。而 AJAX 通过浏览器与服务器进行少量数据交换，就可以使网页实现异步更新。也就是在不重新加载整个页 面的情况下，对网页的部分内容进行局部更新。</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> AJAX</h1>
@@ -9286,9 +9286,9 @@ XML 中仅有字符 &lt; 和 &amp; 是非法的。省略号、引号和大于号
     </item>
     <item>
       <title>CSS</title>
-      <link>https://newzone.top/learn_data/JavaWeb/CSS.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/CSS.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">CSS</source>
+      <link>https://newzone.top/JavaWeb/CSS.html</link>
+      <guid>https://newzone.top/JavaWeb/CSS.html</guid>
+      <source url="https://newzone.top/rss.xml">CSS</source>
       <description>CSS CSS入门 概述 CSS (层叠样式表——Cascading Style Sheets，缩写为 CSS），简单的说，它是用于设置和布局网页的计算机语言。会告知浏览器如何渲染页面元素。例如，调整内容的字体，颜色，大小等样式，设置边框的样式，调整模块的间距等。 层叠：是指样式表允许以多种方式规定样式信息。可以规定在单个元素中，可以在页面头元素中，也可以在另一个CSS文件中，规定的方式会有次序的差别。 样式：是指丰富的样式外观。拿边框距离来说，允许任何设置边框，允许设置边框与框内元素的距离，允许设置边框与边框的距离等等。</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> CSS</h1>
@@ -9683,9 +9683,9 @@ border-right:  右边框</p>
     </item>
     <item>
       <title>HTML</title>
-      <link>https://newzone.top/learn_data/JavaWeb/HTML.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/HTML.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">HTML</source>
+      <link>https://newzone.top/JavaWeb/HTML.html</link>
+      <guid>https://newzone.top/JavaWeb/HTML.html</guid>
+      <source url="https://newzone.top/rss.xml">HTML</source>
       <description>HTML HTML入门 概述 HTML（超文本标记语言—HyperText Markup Language）是构成 Web 世界的基础，是一种用来告知浏览器如何组织页面的标记语言 超文本 Hypertext，是指连接单个或者多个网站间的网页的链接。通过链接，就能访问互联网中的内容 标记 Markup ，是用来注明文本，图片等内容，以便于在浏览器中显示，例如 &amp;lt;head&amp;gt;，&amp;lt;body&amp;gt; 等</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> HTML</h1>
@@ -10587,9 +10587,9 @@ border-right:  右边框</p>
     </item>
     <item>
       <title>HTTP</title>
-      <link>https://newzone.top/learn_data/JavaWeb/HTTP.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/HTTP.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">HTTP</source>
+      <link>https://newzone.top/JavaWeb/HTTP.html</link>
+      <guid>https://newzone.top/JavaWeb/HTTP.html</guid>
+      <source url="https://newzone.top/rss.xml">HTTP</source>
       <description>HTTP 相关概念 HTTP：Hyper Text Transfer Protocol，意为超文本传输协议，是建立在 TCP/IP 协议基础上，指的是服务器和客户端之间交互必须遵循的一问一答的规则，形容这个规则：问答机制、握手机制 HTTP 协议是一个无状态的面向连接的协议，指的是协议对于事务处理没有记忆能力，服务器不知道客户端是什么状态。所以打开一个服务器上的网页和上一次打开这个服务器上的网页之间没有任何联系 注意：无状态并不是代表 HTTP 就是 UDP，面向连接也不是代表 HTTP 就是TCP</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> HTTP</h1>
@@ -11045,9 +11045,9 @@ border-right:  右边框</p>
     </item>
     <item>
       <title>JS</title>
-      <link>https://newzone.top/learn_data/JavaWeb/JS.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/JS.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">JS</source>
+      <link>https://newzone.top/JavaWeb/JS.html</link>
+      <guid>https://newzone.top/JavaWeb/JS.html</guid>
+      <source url="https://newzone.top/rss.xml">JS</source>
       <description>JS 概述 JavaScript 是一种客户端脚本语言。运行在客户端浏览器中，每一个浏览器都具备解析 JavaScript 的引擎。 脚本语言：不需要编译，就可以被浏览器直接解析执行了。 作用：增强用户和 HTML 页面的交互过程，让页面产生动态效果，增强用户的体验。 组成部分：ECMAScript、DOM、BOM 开发环境搭建：安装Node.js，是JavaScript运行环境 语法 引入 引入HTML文件 内部方式：&amp;lt;script&amp;gt;标签 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt; &amp;lt;title&amp;gt;JS快速入门&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;!--html语句--&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;script&amp;gt; // JS语句 &amp;lt;/script&amp;gt; &amp;lt;/html&amp;gt; 外部方式 创建js文件：my.js alert(&amp;quot;Hello&amp;quot;);//js语句 在html中引用外部js文件 &amp;lt;body&amp;gt; &amp;lt;!--html语句--&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;script src=&amp;quot;js/my.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;html&amp;gt;</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> JS</h1>
@@ -12529,9 +12529,9 @@ border-right:  右边框</p>
     </item>
     <item>
       <title>Nginx</title>
-      <link>https://newzone.top/learn_data/JavaWeb/Nginx.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/Nginx.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">Nginx</source>
+      <link>https://newzone.top/JavaWeb/Nginx.html</link>
+      <guid>https://newzone.top/JavaWeb/Nginx.html</guid>
+      <source url="https://newzone.top/rss.xml">Nginx</source>
       <description>Nginx 安装软件 Nginx 是一个高性能的 HTTP 和反向代理 Web 服务器，同时也提供了 IMAP/POP3/SMTP 服务 Nginx 两个最核心的功能：高性能的静态 Web 服务器，反向代理 安装指令：sudo apt-get install nginx 查看版本：nginx -v 系统指令：systemctl / service start/restart/stop/status nginx</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Nginx</h1>
@@ -12633,9 +12633,9 @@ border-right:  右边框</p>
     </item>
     <item>
       <title>Servlet</title>
-      <link>https://newzone.top/learn_data/JavaWeb/Servlet.html</link>
-      <guid>https://newzone.top/learn_data/JavaWeb/Servlet.html</guid>
-      <source url="https://newzone.top/learn_data/rss.xml">Servlet</source>
+      <link>https://newzone.top/JavaWeb/Servlet.html</link>
+      <guid>https://newzone.top/JavaWeb/Servlet.html</guid>
+      <source url="https://newzone.top/rss.xml">Servlet</source>
       <description>Servlet JavaEE JavaEE规范 JavaEE 规范是 J2EE 规范的新名称，早期被称为 J2EE 规范，其全称是 Java 2 Platform Enterprise Edition，它是由 SUN 公司领导、各厂家共同制定并得到广泛认可的工业标准（JCP组织成员）。之所以改名为JavaEE，目的还是让大家清楚 J2EE 只是 Java 企业应用。在 2004 年底中国软件技术大会 Ioc 微容器（也就是 Jdon 框架的实现原理）演讲中指出：我们需要一个跨 J2SE/WEB/EJB 的微容器，保护我们的业务核心组件，以延续它的生命力，而不是依赖 J2SE/J2EE 版本。此次 J2EE 改名为 Java EE，实际也反映出业界这种共同心声</description>
       <pubDate>Wed, 16 Aug 2023 07:46:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Servlet</h1>
